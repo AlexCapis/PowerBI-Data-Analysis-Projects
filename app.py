@@ -148,8 +148,8 @@ if menu == 'INDICADORES MUNDIALES':
             data=b64_data,
             file_name=archivo["nombre"],
             mime="application/octet-stream"
-            
         )
+
 
 # Contenido de la versión 3.0
 if menu == 'RECURSOS HUMANOS':
