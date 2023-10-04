@@ -121,35 +121,6 @@ if menu == 'INDICADORES MUNDIALES':
     st.video("docs/clips/indicadores_mundiales_largo.mp4") 
 
 
-    st.markdown(" A continuación, podrás descargar los archivo que se han utilizado para el dashboard en formato Excel para que puedas explorarlo y replicar el proyecto. ¡Anímate a explorar los datos por ti mismo!"     )
-
-
-    # Crear una lista de archivos que deseas permitir la descarga
-    archivos = [
-        {"nombre": "Countries.xlsx", "ruta": "data/Countries.xlsx"},
-        {"nombre": "Life-expectancy.xlsx", "ruta": "data/Life-expectancy.xlsx"},
-        {"nombre": "paises.xlsx", "ruta": "data/paises.xlsx"},
-        {"nombre": "population.xlsx", "ruta": "data/population.xlsx"},
-        {"nombre": "Infant-death-rate.xlsx", "ruta": "data/Infant-death-rate.xlsx"},
-    ]
-
-    # Función para descargar archivos en base64
-    def descargar_archivo(archivo):
-        with open(archivo["ruta"], "rb") as file:
-            bytes_data = file.read()
-        b64_data = base64.b64encode(bytes_data).decode('utf-8')
-        return b64_data
-
-    # Iterar a través de la lista de archivos y crear botones de descarga
-    for archivo in archivos:
-        b64_data = descargar_archivo(archivo)
-        st.download_button(
-            label=f"Descargar {archivo['nombre']}",
-            data=b64_data,
-            file_name=archivo["nombre"],
-            mime="application/octet-stream"
-        )
-
 
 # Contenido de la versión 3.0
 if menu == 'RECURSOS HUMANOS':
