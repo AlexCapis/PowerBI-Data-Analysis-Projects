@@ -6,7 +6,7 @@ import os
 st.set_page_config(page_title="POWER BI", page_icon=" :chart_with_upwards_trend:", layout="wide")
 
 # Ponemos un titulo a nuestra aplicación
-st.title("Descubre eL Poder de POWER BI")
+st.title("🚀 Descubre eL Poder de POWER BI 📊")
 
 
 
@@ -92,16 +92,16 @@ if menu == 'INDICADORES MUNDIALES':
 
     texto_version_2= '''
 
-    ¡Bienvenido a nuestro análisis profundo de la población donde realizaremos un aánlisis exhaustivo para una mejor comprensión de los datos. 
+    ¡Bienvenido a nuestro análisis profundo de la población donde realizaremos un análisis exhaustivo para una mejor comprensión de los datos. 
 
 
     ## 🎯 Objetivo del Análisis
 
-    El objetivo principal es obtener una comprensión profunda de la distribución de la población en diferentes regiones del mundo y su relación con la mortalidad infantil y la esperanza de vida. Utilizaremos visualizaciones interactivas en Streamlit para lograr este objetivo y presentar datos de manera clara y efectiva.
+    El objetivo principal es obtener una comprensión profunda de la distribución de la población en diferentes regiones del mundo y su relación con la mortalidad infantil y la esperanza de vida.
+     
+    ## ¿Qué descubrirás?
 
-    ## ¿Qué veremos?
-
-    El análisis se presenta a través de dos páginas en nuestra aplicación web en Streamlit: 
+    El análisis se presenta a través de dos secciones: 
     
     1. **Población por Área**: En esta sección, exploramos la distribución de la población por continente y país mediante varias visualizaciones, como un treemap, un mapa, una matriz y diversas segmentaciones de datos. También proporcionamos un botón para restablecer las selecciones y facilitar la interacción del usuario.
 
@@ -121,6 +121,7 @@ if menu == 'INDICADORES MUNDIALES':
     st.video("docs/clips/indicadores_mundiales_largo.mp4") 
 
 
+    st.markdown(" A continuación, podrás descargar los archivo que se han utilizado para el dashboard en formato Excel para que puedas explorarlo y replicar el proyecto. ¡Anímate a explorar los datos por ti mismo!"     )
 
 
     # Crear una lista de archivos que deseas permitir la descarga
@@ -174,7 +175,7 @@ Nuestro objetivo es obtener insights esenciales para estrategias de Recursos Hum
 2. **Estructura Salarial**: Analiza la distribución salarial, identificando tendencias y patrones en sueldos y proporcionando insights vitales para políticas de compensación.
   
   
-3. **Evaluación de Desempeño**: Adéntrate en la evaluación de nuestros empleados, comprendiendo su desempeño y posibles áreas de mejora.
+3. **Evaluación de Desempeño**: Adéntrate en la evaluación de nuestros empleados.
   
 
 ## 🎥 Un Vistazo a Nuestro Dashboard
@@ -193,6 +194,7 @@ A continuación, les vamos a presentar un vídeo que ofrece una experiencia din�
 
     st.video("docs/clips/recursos_humanos_largo.mp4") 
 
+    st.markdown(" A continuación, podrás descargar el archivo que se ha utilizado para el dashboard en formato Excel para que puedas explorarlo y replicar el proyecto. ¡Anímate a explorar los datos por ti mismo!"     )
 
 # Ruta al archivo Excel en tu repositorio
     excel_file_path = "data/Datos_Empleados.xlsx"
