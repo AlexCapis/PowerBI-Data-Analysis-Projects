@@ -161,26 +161,26 @@ if menu == 'RECURSOS HUMANOS':
 
     texto_version_3 = '''
 
-¡Bienvenido a nuestro análisis profundo del departamento de Recursos Humanos de una organización destacada! En este viaje de datos, desentrañaremos aspectos cruciales a través de visualizaciones interactivas.
+    ¡Bienvenido a nuestro análisis profundo del departamento de Recursos Humanos de una organización destacada! En este viaje de datos, desentrañaremos aspectos cruciales a través de visualizaciones interactivas.
 
-## 🎯 Objetivo del Análisis 
+    ## 🎯 Objetivo del Análisis 
 
-Nuestro objetivo es obtener insights esenciales para estrategias de Recursos Humanos efectivas. Utilizando Power BI, hemos traducido datos complejos en visualizaciones impactantes, revelando historias cruciales sobre nuestra fuerza laboral.
+    Nuestro objetivo es obtener insights esenciales para estrategias de Recursos Humanos efectivas. Utilizando Power BI, hemos traducido datos complejos en visualizaciones impactantes, revelando historias cruciales sobre nuestra fuerza laboral.
 
-## Descubre Perspectivas Clave
+    ## Descubre Perspectivas Clave
 
-1. **Perfil Demográfico**: Explora la distribución de empleados por género, edad promedio y otros aspectos clave, proporcionando una visión global de nuestra fuerza laboral.
-  
-  
-2. **Estructura Salarial**: Analiza la distribución salarial, identificando tendencias y patrones en sueldos y proporcionando insights vitales para políticas de compensación.
-  
-  
-3. **Evaluación de Desempeño**: Adéntrate en la evaluación de nuestros empleados.
-  
+    1. **Perfil Demográfico**: Explora la distribución de empleados por género, edad promedio y otros aspectos clave, proporcionando una visión global de nuestra fuerza laboral.
+    
+    
+    2. **Estructura Salarial**: Analiza la distribución salarial, identificando tendencias y patrones en sueldos y proporcionando insights vitales para políticas de compensación.
+    
+    
+    3. **Evaluación de Desempeño**: Adéntrate en la evaluación de nuestros empleados.
+    
 
-## 🎥 Un Vistazo a Nuestro Dashboard
+    ## 🎥 Un Vistazo a Nuestro Dashboard
 
-A continuación, les vamos a presentar un vídeo que ofrece una experiencia dinámica y cautivadora, permitiéndote sumergirte en las interacciones que ofrece nuestro dashboard. ¡Prepárate para una visualización impactante, no te distraigas para no perderte ningún detalle!
+    A continuación, les vamos a presentar un vídeo que ofrece una experiencia dinámica y cautivadora, permitiéndote sumergirte en las interacciones que ofrece nuestro dashboard. ¡Prepárate para una visualización impactante, no te distraigas para no perderte ningún detalle!
 
 
 
@@ -188,7 +188,6 @@ A continuación, les vamos a presentar un vídeo que ofrece una experiencia din�
     '''
     
     st.markdown(texto_version_3)
-
 
 
 
