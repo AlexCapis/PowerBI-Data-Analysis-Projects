@@ -17,7 +17,7 @@ texto = """
 """
 st.write(texto)
 
-menu = st.sidebar.selectbox("Selecciona la Página", ['HOME', 'VENTA VIDEOJUEGOS', 'INDICADORES MUNDIALES', 'RECURSOS HUMANOS'])
+menu = st.sidebar.selectbox("Selecciona la Página", ['HOME', 'VENTA VIDEOJUEGOS', 'INDICADORES MUNDIALES', 'RECURSOS HUMANOS', 'FINANZAS'])
 
 # Variable de control para ocultar o mostrar el contenido de HOME
 mostrar_home = True
@@ -48,7 +48,7 @@ if menu == 'VENTA VIDEOJUEGOS':
     - **Restablecer los datos**: Con este botón interactivo podrás volver al inicio del dashboard restableciendo todos los valores.
 
     
-    ## 🎥 **Visualiza Nuestro Dashboard en Función**
+    ## 🎥 **Visualiza Nuestro Dashboard**
 
     A continuación, les vamos a mostrar un vídeo a través del cuál podrán ver de una manera más dinámica las interacciones con las que cuenta este dashboard. ¡No parpadeen que se lo pierden!
     '''
@@ -185,7 +185,84 @@ if menu == 'RECURSOS HUMANOS':
 )
     
 
+
+
+
+
+
+
+
+
+
+
     
+# Contenido de la versión 1.0
+if menu == 'FINANZAS':
+    mostrar_home = False
+    st.header(" ")
+
+    imagen = "docs/images/portada_finanzas.png"
+    imagen_cargada = st.image(imagen)
+
+
+
+
+    texto_version_1 = '''
+  En esta presentación, realizaremos un análisis de las finanzas desglosándolas completamente y de manera interactiva para descubrir lo más profundo de estas.
+  
+  
+  
+    ## 🎯 **Objetivo del Análisis**
+
+    El objetivo principal de este análisis es lograr una comprensión profunda de las finanzas, desglosándolas de manera efectiva para obtener información clara y ordenada de forma interactiva.
+
+    ## **¿Qué se analizará?**
+
+    Este análisis se estructura en varias secciones para obtener un informe exhaustivo de las finanzas:
+
+    - **Cuotas financieras**: A simple vista, podrás visualizar las cuotas de Ingresos, Gastos, Utilidad y Saldo.
+    - **Medidas Financieras**: Detallamos las finanzas de forma más precisa mediante una tabla coloreada para una mejor diferenciación de las cuotas.
+    - **Tendencias Temporales**: Las medidas de tiempo tienen un gran impacto en las finanzas. Aquí, analizaremos los datos basándonos en años y meses, utilizando diversas visualizaciones interactivas.
+    - **Categorías**: Es crucial conocer en qué áreas se está gastando o ingresando más para llevar a cabo un estudio financiero efectivo. Esto se logra a través de tarjetas y gráficos de líneas, áreas y barras.
+    - **Interacción**: La interactividad es fundamental para un buen dashboard. En este caso, podrás observar que es completamente interactivo, facilitando su navegación y comprensión.
+
+    ## 🎥 **Visualiza Nuestro Dashboard**
+
+    A continuación, mostraremos un vídeo que brinda una visión más dinámica de las interacciones presentes en este dashboard. ¡Atentos para no perdérselo!
+
+
+
+    '''
+    st.markdown(texto_version_1)
+
+   
+    st.video("docs/clips/finanzas_largo.mp4") 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # Contenido de HOME
@@ -206,6 +283,8 @@ if mostrar_home:
     - **Indicadores Mundiales**: Accede a visualizaciones de indicadores clave a nivel mundial y obtén información valiosa sobre diversos aspectos globales.
 
     - **Recursos Humanos**: Explora análisis y visualizaciones relacionadas con recursos humanos, como gestión de talento y eficiencia en equipos.
+
+    - **Finanzas**: Visualiza el análisis de las finanzas de manera interactiva y detallada como los ingresos, los gastos, la utilidad y el saldo.
 
     Selecciona una de las opciones en el menú lateral para comenzar tu exploración y descubrir el poder de POWER BI.
 
